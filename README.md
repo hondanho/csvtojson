@@ -1,13 +1,13 @@
 # CSVJSON
 
-www.csvjson.com are online formatting and conversion tools that I use as a developer.
+www.csvtojson.tools are online formatting and conversion tools that I use as a developer.
 
-- [CSV to JSON](https://www.csvjson.com/csv2json): Convert CSV (Excel) to JSON format.
-- [JSON to CSV](https://www.csvjson.com/json2csv): Convert JSON to CSV format (Excel).
-- [SQL to JSON](https://www.csvjson.com/sql2json): Convert SQL (CREATE TABLE and INSERT INTO statements) to JSON format.
-- [JSON Validator](https://csvjson.com/json_validator): Cerifies that your JavaScript Object Notation adheres to the JSON specification.
-- [JSON Beautifier](https://www.csvjson.com/json_beautifier): Format and make beautiful JSON. Convert it to JavaScript code (drop quotes on keys).
-- [Data Janitor](https://www.csvjson.com/datajanitor): Online tool for Excel and Google Sheets data cleaning and transformation using user-written JavaScript.
+- [CSV to JSON](https://www.csvtojson.tools/csv2json): Convert CSV (Excel) to JSON format.
+- [JSON to CSV](https://www.csvtojson.tools/json2csv): Convert JSON to CSV format (Excel).
+- [SQL to JSON](https://www.csvtojson.tools/sql2json): Convert SQL (CREATE TABLE and INSERT INTO statements) to JSON format.
+- [JSON Validator](https://csvtojson.tools/json_validator): Cerifies that your JavaScript Object Notation adheres to the JSON specification.
+- [JSON Beautifier](https://www.csvtojson.tools/json_beautifier): Format and make beautiful JSON. Convert it to JavaScript code (drop quotes on keys).
+- [Data Janitor](https://www.csvtojson.tools/datajanitor): Online tool for Excel and Google Sheets data cleaning and transformation using user-written JavaScript.
 - More to come...
 
 CSVJSON is built using PHP CodeIgniter, Bootstrap 3.0, Underscore, JSON, jsonlint, and other goodies.
@@ -28,7 +28,7 @@ $config['aws_s3'] = array('supported' => defined('AWS_S3_URL'));
 CodeIgniter's index.php will start everything. If you plan to deploy in a production environment, edit it and change this with your domain name:
 
 ```php
-if (strpos($_SERVER['SERVER_NAME'], "csvjson.com") !== FALSE) {
+if (strpos($_SERVER['SERVER_NAME'], "csvtojson.tools") !== FALSE) {
     define('ENVIRONMENT', 'production');
 } else {
     define('ENVIRONMENT', 'development');

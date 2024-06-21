@@ -142,13 +142,13 @@
                   <td class="content-block" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; font-size: 12px; color: #999999; text-align: center;">
                     <span class="apple-link" style="color: #999999; font-size: 12px; text-align: center;">CSVJSON, 10410 Waverly, Montreal, QC, H3L 2W4</span>
                     <?php if ($unsubscribe): ?>
-                      <br> Want to stop receiving these emails? <a href="https://www.csvjson.com/unsubscribe" style="text-decoration: underline; color: #999999; font-size: 12px; text-align: center;">Unsubscribe</a>.
+                      <br> Want to stop receiving these emails? <a href="https://www.csvtojson.tools/unsubscribe" style="text-decoration: underline; color: #999999; font-size: 12px; text-align: center;">Unsubscribe</a>.
                     <?php endif; ?>
                   </td>
                 </tr>
                 <tr>
                   <td class="content-block powered-by" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; font-size: 12px; color: #999999; text-align: center;">
-                    <a href="https://www.csvjson.com" style="color: #999999; font-size: 12px; text-align: center; text-decoration: none;">csvjson.com</a>
+                    <a href="https://www.csvtojson.tools" style="color: #999999; font-size: 12px; text-align: center; text-decoration: none;">csvtojson.tools</a>
                   </td>
                 </tr>
               </table>
